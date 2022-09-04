@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card{
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-holder{
+    background-color: whitesmoke;
+    padding: 60px 40px;
+}
+
+.pic {
+    display: inline-block;
+    padding: 8px;
+    background: linear-gradient(130deg, #74b9ff, #e66767);
+    margin: auto;
+    border-radius: 50%;
+    background-size: 200% 200%;
+    animation: animated-gradient 2s linear infinite;
+}
+
+@keyframes animated-gradient {
+    25% {
+        background-position: left bottom;
+    }
+    50% {
+        background-position: right bottom;
+    }
+    75% {
+        background-position: right top;
+    }
+    100% {
+        background-position: left top;
+    }
+}
+
+.pic img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.icon a {
+    color: black;
+    width: 60px;
+    font-size: 40px;
+    transition: .3s linear;
+}
+
+.icon a:hover {
+    color: #74b9ff;
+}
+
+.contactbtn{
+    display: inline-block;
+    padding: 12px 50px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin-top: 16px;
+    transition: .3s linear;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+.contactbtn:hover {
+    background: black;
+    color: white;
+
+}
