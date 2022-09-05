@@ -20,6 +20,7 @@ body {
     text-align: center;
     border-radius: 8px;
     overflow: hidden;
+    height: 730px;
 }
 
 .card-holder{
@@ -103,4 +104,8 @@ body {
 
 .map{
     padding-top: 10px;
+}
+
+.footer {
+    padding-top: 20px;
 }
