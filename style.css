@@ -1,30 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
-    margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
     box-sizing: border-box;
-    text-decoration: none;
 }
 
 body {
-    height: 100%;
-    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.icon {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: center; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 30px;
+    place-items: center;
+}
+
+.profile-card {
+    height: auto;
+    width: auto;
     display: flex;
-    align-items: center;
+    padding: 10px;
+    text-align: center;
     justify-content: center;
 }
 
-.profile-card{
-    width: 400px;
-    text-align: center;
-    border-radius: 8px;
-    overflow: hidden;
-    height: 730px;
-}
-
-.card-holder{
-    background-color: whitesmoke;
-    padding: 60px 40px;
+.card-holder {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #000;
+    place-items: center;
 }
 
 .pic {
@@ -35,6 +52,26 @@ body {
     border-radius: 50%;
     background-size: 200% 200%;
     animation: animated-gradient 2s linear infinite;
+}
+
+.pic img {
+    display: block;
+    width: 150px;
+    height: 150PX;
+    border-radius: 50%;
+}
+
+.name {
+    color: black;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.icon a:hover {
+    color: white;
+    border-radius: 20px;
+    background-color: black;
 }
 
 @keyframes animated-gradient {
@@ -50,61 +87,4 @@ body {
     100% {
         background-position: left top;
     }
-}
-
-.pic img {
-    display: block;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
-
-.name{
-    font-size: 28px;
-    font-weight: 600;
-    margin: 10px 0;
-}
-
-.icon{
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-}
-
-.icon a {
-    color: black;
-    width: 60px;
-    font-size: 40px;
-    transition: .3s linear;
-}
-
-.icon a:hover {
-    color: lightskyblue;
-}
-
-.contactbtn{
-    display: inline-block;
-    padding: 12px 50px;
-    color: black;
-    border: 2px solid black;
-    border-radius: 6px;
-    margin-top: 16px;
-    transition: .3s linear;
-    font-weight: 600;
-    font-size: 20px;
-    
-}
-
-.contactbtn:hover {
-    background: black;
-    color: white;
-
-}
-
-.map{
-    padding-top: 10px;
-}
-
-.footer {
-    padding-top: 20px;
 }
