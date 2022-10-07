@@ -21,7 +21,7 @@ body {
 
 .card-holder {
     height: auto;
-    width: 40vw;
+    width: 50vh;
     padding: 10px;
     border-radius: 5px;
     box-shadow:  0 0 30px #000;
@@ -80,6 +80,36 @@ body {
     height: 150PX;
     border-radius: 50%;
 }
+
+@media (min-width: 458px) {
+    .card-holder {
+        height: auto;
+        width: 100vw;}
+}
+
+@media (min-width: 991px) {
+    .card-holder {
+        height: auto;
+        width: 50vw;}
+}
+
+@media (min-width: 768px) {
+    .card-holder {
+        height: auto;
+        width: 40vw;}
+}
+
+@media (min-width: 1080px) {
+    .card-holder {
+        height: auto;
+        width: 40vw;}
+}
+
+
+
+
+
+
 
 
 @keyframes animated-gradient {
