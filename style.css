@@ -11,37 +11,57 @@ body {
     
 }
 
-.icon {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    place-items: center; 
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    padding: 20px;
-    font-size: 35px;
-    place-items: center;
-}
-
 .profile-card {
-    height: auto;
-    width: auto;
-    display: flex;
-    padding: 10px;
-    text-align: center;
     justify-content: center;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .card-holder {
-    position: relative;
     height: auto;
-    width: auto;
+    width: 40vw;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 30px #000;
-    place-items: center;
+    box-shadow:  0 0 30px #000;
+}
+
+.icon {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.icon a:hover {
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.icon p {
+    font-size: 15px;
+}
+
+.icon a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.name {
+    color: black;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contact {
+    font-size: 20px;
+    padding: 10px;
+
 }
 
 .pic {
@@ -61,27 +81,6 @@ a {
     border-radius: 50%;
 }
 
-.name {
-    color: black;
-    padding: 10px;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.icon a:hover {
-    color: white;
-    border-radius: 20px;
-    background-color: black;
-}
-
-.contact {
-    font-size: 20px;
-    padding: 10px;
-}
-
-.icon p {
-    font-size: 15px;
-}
 
 @keyframes animated-gradient {
     25% {
