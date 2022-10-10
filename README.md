@@ -3,4 +3,4 @@
 
 https://sidddhuu316.github.io/Digital-Card/
 
-<img width="279" alt="image" src="https://user-images.githubusercontent.com/106863450/194338264-a4cb314e-0e51-4c1d-88ef-946a6fea0ca5.png">
+![Screenshot_2022-10-07-10-11-26-95_40deb401b9ffe8e1df2f1cc5ba480b12](https://user-images.githubusercontent.com/106863450/194469247-8fd938a3-8f04-4229-ab07-5962e13b16d1.jpg)
